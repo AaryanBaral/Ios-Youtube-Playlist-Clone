@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBFC83A2973CDC300FEBEC6 /* Youtube_Playlist_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFC8392973CDC300FEBEC6 /* Youtube_Playlist_CloneApp.swift */; };
+		2FBFC83C2973CDC300FEBEC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFC83B2973CDC300FEBEC6 /* ContentView.swift */; };
+		2FBFC83E2973CDC400FEBEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBFC83D2973CDC400FEBEC6 /* Assets.xcassets */; };
+		2FBFC8412973CDC400FEBEC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBFC8402973CDC400FEBEC6 /* Preview Assets.xcassets */; };
+		2FBFC84B2973CDC400FEBEC6 /* Youtube_Playlist_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFC84A2973CDC400FEBEC6 /* Youtube_Playlist_CloneTests.swift */; };
+		2FBFC8552973CDC400FEBEC6 /* Youtube_Playlist_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFC8542973CDC400FEBEC6 /* Youtube_Playlist_CloneUITests.swift */; };
+		2FBFC8572973CDC400FEBEC6 /* Youtube_Playlist_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFC8562973CDC400FEBEC6 /* Youtube_Playlist_CloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBFC8472973CDC400FEBEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBFC82E2973CDC300FEBEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBFC8352973CDC300FEBEC6;
+			remoteInfo = "Youtube Playlist Clone";
+		};
+		2FBFC8512973CDC400FEBEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBFC82E2973CDC300FEBEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBFC8352973CDC300FEBEC6;
+			remoteInfo = "Youtube Playlist Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBFC8362973CDC300FEBEC6 /* Youtube Playlist Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube Playlist Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBFC8392973CDC300FEBEC6 /* Youtube_Playlist_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_Playlist_CloneApp.swift; sourceTree = "<group>"; };
+		2FBFC83B2973CDC300FEBEC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FBFC83D2973CDC400FEBEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBFC8402973CDC400FEBEC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBFC8462973CDC400FEBEC6 /* Youtube Playlist CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Youtube Playlist CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBFC84A2973CDC400FEBEC6 /* Youtube_Playlist_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_Playlist_CloneTests.swift; sourceTree = "<group>"; };
+		2FBFC8502973CDC400FEBEC6 /* Youtube Playlist CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Youtube Playlist CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBFC8542973CDC400FEBEC6 /* Youtube_Playlist_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_Playlist_CloneUITests.swift; sourceTree = "<group>"; };
+		2FBFC8562973CDC400FEBEC6 /* Youtube_Playlist_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_Playlist_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBFC8332973CDC300FEBEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC8432973CDC400FEBEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC84D2973CDC400FEBEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBFC82D2973CDC300FEBEC6 = {
+			isa = PBXGroup;
+			children = (
+				2FBFC8382973CDC300FEBEC6 /* Youtube Playlist Clone */,
+				2FBFC8492973CDC400FEBEC6 /* Youtube Playlist CloneTests */,
+				2FBFC8532973CDC400FEBEC6 /* Youtube Playlist CloneUITests */,
+				2FBFC8372973CDC300FEBEC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBFC8372973CDC300FEBEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFC8362973CDC300FEBEC6 /* Youtube Playlist Clone.app */,
+				2FBFC8462973CDC400FEBEC6 /* Youtube Playlist CloneTests.xctest */,
+				2FBFC8502973CDC400FEBEC6 /* Youtube Playlist CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBFC8382973CDC300FEBEC6 /* Youtube Playlist Clone */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFC8392973CDC300FEBEC6 /* Youtube_Playlist_CloneApp.swift */,
+				2FBFC83B2973CDC300FEBEC6 /* ContentView.swift */,
+				2FBFC83D2973CDC400FEBEC6 /* Assets.xcassets */,
+				2FBFC83F2973CDC400FEBEC6 /* Preview Content */,
+			);
+			path = "Youtube Playlist Clone";
+			sourceTree = "<group>";
+		};
+		2FBFC83F2973CDC400FEBEC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFC8402973CDC400FEBEC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FBFC8492973CDC400FEBEC6 /* Youtube Playlist CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFC84A2973CDC400FEBEC6 /* Youtube_Playlist_CloneTests.swift */,
+			);
+			path = "Youtube Playlist CloneTests";
+			sourceTree = "<group>";
+		};
+		2FBFC8532973CDC400FEBEC6 /* Youtube Playlist CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFC8542973CDC400FEBEC6 /* Youtube_Playlist_CloneUITests.swift */,
+				2FBFC8562973CDC400FEBEC6 /* Youtube_Playlist_CloneUITestsLaunchTests.swift */,
+			);
+			path = "Youtube Playlist CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBFC8352973CDC300FEBEC6 /* Youtube Playlist Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBFC85A2973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist Clone" */;
+			buildPhases = (
+				2FBFC8322973CDC300FEBEC6 /* Sources */,
+				2FBFC8332973CDC300FEBEC6 /* Frameworks */,
+				2FBFC8342973CDC300FEBEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Youtube Playlist Clone";
+			productName = "Youtube Playlist Clone";
+			productReference = 2FBFC8362973CDC300FEBEC6 /* Youtube Playlist Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBFC8452973CDC400FEBEC6 /* Youtube Playlist CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBFC85D2973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist CloneTests" */;
+			buildPhases = (
+				2FBFC8422973CDC400FEBEC6 /* Sources */,
+				2FBFC8432973CDC400FEBEC6 /* Frameworks */,
+				2FBFC8442973CDC400FEBEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBFC8482973CDC400FEBEC6 /* PBXTargetDependency */,
+			);
+			name = "Youtube Playlist CloneTests";
+			productName = "Youtube Playlist CloneTests";
+			productReference = 2FBFC8462973CDC400FEBEC6 /* Youtube Playlist CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBFC84F2973CDC400FEBEC6 /* Youtube Playlist CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBFC8602973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist CloneUITests" */;
+			buildPhases = (
+				2FBFC84C2973CDC400FEBEC6 /* Sources */,
+				2FBFC84D2973CDC400FEBEC6 /* Frameworks */,
+				2FBFC84E2973CDC400FEBEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBFC8522973CDC400FEBEC6 /* PBXTargetDependency */,
+			);
+			name = "Youtube Playlist CloneUITests";
+			productName = "Youtube Playlist CloneUITests";
+			productReference = 2FBFC8502973CDC400FEBEC6 /* Youtube Playlist CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBFC82E2973CDC300FEBEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2FBFC8352973CDC300FEBEC6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2FBFC8452973CDC400FEBEC6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2FBFC8352973CDC300FEBEC6;
+					};
+					2FBFC84F2973CDC400FEBEC6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2FBFC8352973CDC300FEBEC6;
+					};
+				};
+			};
+			buildConfigurationList = 2FBFC8312973CDC300FEBEC6 /* Build configuration list for PBXProject "Youtube Playlist Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBFC82D2973CDC300FEBEC6;
+			productRefGroup = 2FBFC8372973CDC300FEBEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBFC8352973CDC300FEBEC6 /* Youtube Playlist Clone */,
+				2FBFC8452973CDC400FEBEC6 /* Youtube Playlist CloneTests */,
+				2FBFC84F2973CDC400FEBEC6 /* Youtube Playlist CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBFC8342973CDC300FEBEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBFC8412973CDC400FEBEC6 /* Preview Assets.xcassets in Resources */,
+				2FBFC83E2973CDC400FEBEC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC8442973CDC400FEBEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC84E2973CDC400FEBEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBFC8322973CDC300FEBEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBFC83C2973CDC300FEBEC6 /* ContentView.swift in Sources */,
+				2FBFC83A2973CDC300FEBEC6 /* Youtube_Playlist_CloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC8422973CDC400FEBEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBFC84B2973CDC400FEBEC6 /* Youtube_Playlist_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBFC84C2973CDC400FEBEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBFC8572973CDC400FEBEC6 /* Youtube_Playlist_CloneUITestsLaunchTests.swift in Sources */,
+				2FBFC8552973CDC400FEBEC6 /* Youtube_Playlist_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBFC8482973CDC400FEBEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBFC8352973CDC300FEBEC6 /* Youtube Playlist Clone */;
+			targetProxy = 2FBFC8472973CDC400FEBEC6 /* PBXContainerItemProxy */;
+		};
+		2FBFC8522973CDC400FEBEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBFC8352973CDC300FEBEC6 /* Youtube Playlist Clone */;
+			targetProxy = 2FBFC8512973CDC400FEBEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FBFC8582973CDC400FEBEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FBFC8592973CDC400FEBEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBFC85B2973CDC400FEBEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube Playlist Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBFC85C2973CDC400FEBEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube Playlist Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FBFC85E2973CDC400FEBEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youtube Playlist Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Youtube Playlist Clone";
+			};
+			name = Debug;
+		};
+		2FBFC85F2973CDC400FEBEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youtube Playlist Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Youtube Playlist Clone";
+			};
+			name = Release;
+		};
+		2FBFC8612973CDC400FEBEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Youtube Playlist Clone";
+			};
+			name = Debug;
+		};
+		2FBFC8622973CDC400FEBEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.Youtube-Playlist-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Youtube Playlist Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBFC8312973CDC300FEBEC6 /* Build configuration list for PBXProject "Youtube Playlist Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBFC8582973CDC400FEBEC6 /* Debug */,
+				2FBFC8592973CDC400FEBEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBFC85A2973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBFC85B2973CDC400FEBEC6 /* Debug */,
+				2FBFC85C2973CDC400FEBEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBFC85D2973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBFC85E2973CDC400FEBEC6 /* Debug */,
+				2FBFC85F2973CDC400FEBEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBFC8602973CDC400FEBEC6 /* Build configuration list for PBXNativeTarget "Youtube Playlist CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBFC8612973CDC400FEBEC6 /* Debug */,
+				2FBFC8622973CDC400FEBEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBFC82E2973CDC300FEBEC6 /* Project object */;
+}
